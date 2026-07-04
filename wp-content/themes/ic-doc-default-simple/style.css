@@ -30,7 +30,7 @@ body {
 		margin: 0 auto 40px auto;
 		}
 a:link, a:visited {
-	color: #1e8cbe;
+	color: #0000cd;
 }
 
 .sitetitle,
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-family: 'Roboto Slab', sans-serif;
 	font-style: normal;
-	color: #1e8cbe;	
+	color: #0000cd;	
 	font-weight: 700;
 	text-decoration: none;
 	line-height: 1.3em;
@@ -94,7 +94,7 @@ p {
 #header .nav {
 	margin-top: 20px;
 	padding: 0 20px;
-		border-bottom: 3px solid #1e8cbe;
+		border-bottom: 3px solid #0000cd;
 		
 
 	overflow: hidden;
@@ -110,7 +110,7 @@ p {
 	padding: 5px 10px 8px 10px;
 	background-color: #eeeef4;
 
-	color: black; /* #1e8cbe; */
+	color: black; /* #0000cd; */
 	font-size: 14px;
 		-webkit-border-radius: 10px 10px 0 0;
 	-moz-border-radius: 10px 10px 0 0;
@@ -126,7 +126,7 @@ p {
 #header .nav ul li:hover > a,
 #header .nav .current_page_item a,
 #header .nav .current_page_ancestor a {
-	background-color: #1e8cbe;
+	background-color: #0000cd;
 	color: #fff;
 }
 #header .nav ul li:hover > a {
@@ -135,7 +135,7 @@ p {
 #header .nav ul ul {
 	display: none;
 	position: absolute;
-	border: 1px solid #1e8cbe;
+	border: 1px solid #0000cd;
 	background: white;
 	padding: 5px 0;
 	max-width: 250px;
@@ -192,7 +192,7 @@ p {
 }
 #header .nav ul ul li:hover > a {
 	background-color: transparent;
-	color: #1e8cbe !important;
+	color: #0000cd !important;
 }
 
 #header .nav ul ul ul {
@@ -235,7 +235,7 @@ p {
 	padding:4px 10px;
 
 		color: white;
-	background-color: #1e8cbe;
+	background-color: #0000cd;
 	}
 .widget {
 	margin-bottom: 20px;
@@ -323,7 +323,7 @@ p {
 	margin-top: 0;
 	padding-bottom: 10px;
 	border-bottom: 3px double #eeeef4;
-	color: #1e8cbe;
+	color: #0000cd;
 }
 .hentry {
 	padding-bottom: 15px;
@@ -427,7 +427,7 @@ p {
 .back-link:before {
 	content:"\003c"; 
 	padding-right: 5px;
-	color: #1e8cbe;	
+	color: #0000cd;	
 }
 #actions li {
 	display: inline;
@@ -648,7 +648,7 @@ p {
 }
 
 #header .nav .current-menu-item a {
-	background-color: #1e8cbe;
+	background-color: #0000cd;
 	color: #fff;
 }
 
