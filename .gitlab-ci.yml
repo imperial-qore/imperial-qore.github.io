@@ -1,10 +1,19 @@
-# The Docker image that will be used to build your app
-image: node:lts
-create-pages:
-  pages:
-    # The folder that contains the files to be exposed at the Page URL
-    publish: public
+# GitLab Pages deployment for the QORE static site.
+# The site lives at the repository root (root-based layout keeps it
+# compatible with local `python -m http.server` and GitHub Pages).
+# GitLab Pages serves the `public/` artifact, so we copy the site into it.
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - >-
+      find . -mindepth 1 -maxdepth 1
+      ! -name public ! -name '.git' ! -name '.gitlab-ci.yml'
+      -exec cp -r {} public/ \;
+  artifacts:
+    paths:
+      - public
   rules:
-    # This ensures that only pushes to the default branch will trigger
-    # a pages deploy
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
