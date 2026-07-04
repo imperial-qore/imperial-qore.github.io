@@ -1,0 +1,41 @@
+
+
+/*
+This editor can be used to apply additional CSS properties, to override existing ones or to hide 
+particular elements.
+
+For example, if you wanted to make the site title link a different colour without effecting all of 
+the other links within the site, the following could be added...
+
+.sitetitle a {
+	color: #000000;
+}
+
+Hiding an element can be done like so...
+
+#copyright {
+	display: none;
+}
+
+To find specific classes (prefixed with a dot in CSS) or IDs (which should be prefixed with a hash 
+when referencing in CSS) try using the inspect element tool in Chrome, Firefox or Safari. This can 
+be triggered by right clicking on the element you'd would like to target. 
+
+Be sure to end each line with a semi-colon and make sure each openening brace is followed by a closing 
+brace after the properties have been declared.
+
+* Use with caution - incorrect syntax or invalid selectors may cause unexpected results, invalid 
+syntax will be highlighted below in Red. */
+
+
+
+
+
+
+
+
+
+
+
+
+
